@@ -120,6 +120,7 @@ for (let i = 0; i < researchItems.length; i++) {
     researchModalImg.src = this.querySelector("[data-research-img]").src;
     researchModalImg.alt = this.querySelector("[data-research-img]").alt;
     researchModalTitle.innerHTML = this.querySelector("[bdata-research-title]").innerHTML;
+    researchModalText.innerHTML = this.querySelector("[bdata-research-text]").innerHTML;
 
     researchModalFunc();
 
