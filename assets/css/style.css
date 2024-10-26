@@ -1118,13 +1118,18 @@ main {
 
 .blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
 
-.blog-text {
+.blog-text {  
+  display: none; 
+}
+
+.blog-text.active {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  display: block;
+  animation: scaleUp 0.25s ease forwards;
 }
-
 
 
 
