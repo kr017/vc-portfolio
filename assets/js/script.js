@@ -157,3 +157,40 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// // research variables
+// const researchItem = document.querySelectorAll("[data-research-item]");
+// const researchModalContainer = document.querySelector("[data-modal-container]");
+// const reseachModalCloseBtn = document.querySelector("[data-modal-close-btn]");
+// const researchOverlay = document.querySelector("[data-overlay]");
+
+// // modal variable
+// const researchModalImg = document.querySelector("[data-modal-img]");
+// const researchModalTitle = document.querySelector("[data-modal-title]");
+// const researchModalText = document.querySelector("[data-modal-text]");
+
+// // modal toggle function
+// const researchModalFunc = function () {
+//   researchModalContainer.classList.toggle("active");
+//   overlay.classList.toggle("active");
+// }
+
+// // add click event to all modal items
+// for (let i = 0; i < researchItem.length; i++) {
+
+//   researchItem[i].addEventListener("click", function () {
+
+//     modalImg.src = this.querySelector("[data-research-img]").src;
+//     modalImg.alt = this.querySelector("[data-research-img]").alt;
+//     modalTitle.innerHTML = this.querySelector("[data-research-title]").innerHTML;
+//     modalText.innerHTML = this.querySelector("[data-research-text]").innerHTML;
+
+//     researchModalFunc();
+
+//   });
+
+// }
+
+// // add click event to modal close button
+// modalCloseBtn.addEventListener("click", researchModalFunc);
+// overlay.addEventListener("click", researchModalFunc);
