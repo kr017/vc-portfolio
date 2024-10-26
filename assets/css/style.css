@@ -1118,7 +1118,8 @@ main {
 
 .blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
 
-.blog-text {  
+.blog-text {
+  
   display: none; 
 }
 
