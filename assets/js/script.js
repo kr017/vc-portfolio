@@ -178,7 +178,6 @@ const researchModalFunc = function () {
 
 // add click event to all modal items
 for (let i = 0; i < researchItems.length; i++) {
-debugger
   researchItems[i].addEventListener("click", function () {
 
     researchModalImg.src = this.querySelector("[data-research-img]").src;
