@@ -16,9 +16,9 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 
 // custom select variables
 const select = document.querySelector("[data-select]");
-const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
-const filterBtn = document.querySelectorAll("[data-filter-btn]");
+const selectItems = document.querySelectorAll("[bdata-select-item]");
+const selectValue = document.querySelector("[bdata-select-value]");
+const filterBtn = document.querySelectorAll("[bdata-filter-btn]");
 
 select.addEventListener("click", function () { elementToggleFunc(this); });
 
@@ -35,7 +35,7 @@ for (let i = 0; i < selectItems.length; i++) {
 }
 
 // filter variables
-const filterItems = document.querySelectorAll("[data-filter-item]");
+const filterItems = document.querySelectorAll("[bdata-filter-item]");
 
 const filterFunc = function (selectedValue) {
 

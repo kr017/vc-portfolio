@@ -695,10 +695,66 @@
 
         <section class="blog-posts">
 
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" bdata-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button bdata-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button bdata-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button bdata-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" bdata-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button bdata-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button bdata-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button bdata-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button bdata-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+
           <ul class="blog-posts-list">
 
-            <li class="blog-post-item">
-              <div class="content-card" bdata-research-item>
+            <li class="blog-post-item project-item active"  bdata-filter-item 
+            data-category="web development">
+              <div class="content-card" bdata-research-item >
 
 
                 <figure class="blog-banner-box">
@@ -754,7 +810,7 @@
 
             </li>
 
-            <li class="blog-post-item">
+            <li class="blog-post-item project-item active" bdata-filter-item data-category="web design">
               <div class="content-card" bdata-research-item>
 
 
@@ -785,7 +841,7 @@
 
             </li>
 
-            <li class="blog-post-item">
+            <li class="blog-post-item project-item active" bdata-filter-item data-category="applications">
               <div class="content-card" bdata-research-item>
 
 
