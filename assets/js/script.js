@@ -130,3 +130,42 @@ for (let i = 0; i < researchItems.length; i++) {
 // add click event to modal close button
 reseachModalCloseBtn.addEventListener("click", researchModalFunc);
 researchOverlay.addEventListener("click", researchModalFunc);
+
+
+
+// PUBLICATION
+
+
+const publicationItems = document.querySelectorAll("[pdata-publication-item]");
+const publicationModalContainer = document.querySelector("[pdata-modal-container]");
+const publicationModalCloseBtn = document.querySelector("[pdata-modal-close-btn]");
+const publicationOverlay = document.querySelector("[pdata-overlay]");
+const publicationtemsDetailed=document.querySelectorAll("[detailed-publication-item]");
+
+// modal variable
+const publicationModalImg = document.querySelector("[pdata-modal-img]");
+const publicationModalTitle = document.querySelector("[pdata-modal-title]");
+const publicationModalText = document.querySelector("[pdata-modal-text]");
+
+// modal toggle function
+const publicationModalFunc = function () {
+  publicationModalContainer.classList.toggle("active");
+  overlay.classList.toggle("active");
+}
+
+// add click event to all modal items
+for (let i = 0; i < publicationItems.length; i++) {
+  publicationItems[i].addEventListener("click", function () {
+
+    publicationModalTitle.innerHTML = this.querySelector("[pdata-publication-title]").innerHTML;
+    publicationModalText.innerHTML = this.querySelector("[pdata-publication-text]").innerHTML;
+
+    publicationModalFunc();
+
+  });
+
+}
+
+// add click event to modal close button
+publicationModalCloseBtn.addEventListener("click", publicationModalFunc);
+publicationOverlay.addEventListener("click", publicationModalFunc);
