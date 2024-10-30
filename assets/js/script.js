@@ -99,7 +99,7 @@ const researchItems = document.querySelectorAll("[bdata-research-item]");
 const researchModalContainer = document.querySelector("[bdata-modal-container]");
 const reseachModalCloseBtn = document.querySelector("[bdata-modal-close-btn]");
 const researchOverlay = document.querySelector("[bdata-overlay]");
-const researchItemsDetailed=document.querySelectorAll("[detailed-researchitem]");
+const researchItemsDetailed = document.querySelectorAll("[detailed-researchitem]");
 
 // modal variable
 const researchModalImg = document.querySelector("[bdata-modal-img]");
@@ -140,7 +140,7 @@ const publicationItems = document.querySelectorAll("[pdata-publication-item]");
 const publicationModalContainer = document.querySelector("[pdata-modal-container]");
 const publicationModalCloseBtn = document.querySelector("[pdata-modal-close-btn]");
 const publicationOverlay = document.querySelector("[pdata-overlay]");
-const publicationtemsDetailed=document.querySelectorAll("[detailed-publication-item]");
+const publicationtemsDetailed = document.querySelectorAll("[detailed-publication-item]");
 
 // modal variable
 const publicationModalImg = document.querySelector("[pdata-modal-img]");
