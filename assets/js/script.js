@@ -157,7 +157,7 @@ const publicationModalFunc = function () {
   // overlay.classList.toggle("active");
 };
 
-// add click event to aabstract item
+// add click event to abstract item
 for (let i = 0; i < publicationAbstractItems.length; i++) {
   publicationAbstractItems[i].addEventListener("click", function () {
     publicationModalTitle.innerHTML = this.querySelector(
@@ -171,7 +171,7 @@ for (let i = 0; i < publicationAbstractItems.length; i++) {
   });
 }
 
-// add click event to acite items
+// add click event to cite items
 for (let i = 0; i < publicationCiteItems.length; i++) {
   publicationCiteItems[i].addEventListener("click", function () {
     publicationModalTitle.innerHTML = this.querySelector(
